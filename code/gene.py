@@ -192,7 +192,7 @@ def run_genetic_algorithm(source_file, target_file):
         filename = 'best_sp_rms_centroid_nudged'+str(num_zero_crossings_per_chunk)+'_'+str(j)+'.aiff'
         p.master_chromosome.to_sound_file(best, filename)
 
-s = 'early_experiments/sin_a3.aiff'
+s = 'sin_a3.aiff'
 r = run_genetic_algorithm
 ss = 'synth_source.aiff'
 st = 'violin_target.aiff'
